@@ -111,6 +111,10 @@ html {
     margin-bottom: 14px;
 }
 
+.about p {
+    text-align: justify;
+}
+
 .projects {
     width: 100%;
     display: flex;
@@ -178,4 +182,49 @@ footer a {
     text-decoration: none;
     color: #1e96FC;
     margin-right: 10px;
+}
+
+@media (max-width: 1050px) {
+    .main h1 {
+        font-size: 40px;
+    }
+
+    .main p {
+        font-size: 18px;
+    }
+
+    .main {
+        background-size: cover;
+    }
+
+    .about {
+        flex-direction: column;
+        padding-top: 80px;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    .abour div {
+        max-width: 80%;
+    }
+    .about div h2 {
+        font-size: 40px;
+    }
+
+    .about p {
+        text-align: justify;
+    }
+
+    .about img {
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .projects img {
+        width: 27.5%;
+    }
+
+    footer p {
+        margin: 0;
+    }
 }
